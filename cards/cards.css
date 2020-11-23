@@ -1,0 +1,84 @@
+.carousel{
+	margin: 0;
+	padding: 0;
+
+	color:#ff1500;
+	padding: 10px;
+}
+.carousel-item{
+text-align: center;
+}
+.side{
+	display: flex;
+	justify-content: space-around;
+}
+.btn{
+	background-color: white;
+	color: black;
+
+}
+.header_images{
+	display: flex;
+	justify-content: space-around;
+	object-fit: fill;
+	flex-wrap: wrap;
+}
+.header_images > img{
+	object-fit: fill;
+
+}
+.productcard{
+  display:flex;
+  justify-content: space-around;
+  justify-content: center;
+  padding: 40px 10px;
+  flex-wrap:wrap;
+
+
+}
+.box1 > img{
+  width:300px;
+  height:300px;
+}
+.box1{
+margin-left: 10px;
+
+
+
+}
+.box1 > h5{
+	margin:10px 0;
+  font-size:20px;
+  color:gray;
+  max-width: 18rem;
+  text-align:center;
+}
+.box1 > p{
+  font-size:16px;
+  color:gray;
+  margin:10px 10px;
+  max-width: 16rem;
+}
+.thumbs {
+  margin:10px 5px;
+  
+ 
+}
+.form-check .btn0{
+	background-color: gray;
+	height: 20px;
+	border:none;
+	width: 20px;
+}
+.form-check .btn1{
+	background-color: blue;
+	height: 20px;
+	border:none;
+	width: 20px;
+}
+.form-check .btn2{
+	background-color: red;
+	height: 20px;
+	width: 20px;
+	border:none;
+}
